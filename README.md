@@ -3,6 +3,7 @@ This is the ReCap website of the Weeks 1-4 for CS-110. This website is to tell, 
 
 Creator- Aiden Mendoza
 
-Team- Aiden Mendoza
-      
-      Artificial Intelligence
+Team- 
+
+      Aiden Mendoza
+      AI
