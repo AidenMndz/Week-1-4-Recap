@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CS110 Field Guide</title>
+
+  <link rel="stylesheet" href="styles.css">
+<script src="config.js" defer></script>
+<script src="https://cdn.babylonjs.com/babylon.js" defer></script>
+<script src="app.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header>
+    <a class="brand" href="#home">CS110 · FIELD GUIDE</a>
+
+    <nav aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#week1">Week 1</a>
+      <a href="#week2">Week 2</a>
+      <a href="#week3">Week 3</a>
+      <a href="#week4">Week 4</a>
+      <a href="#recap">Visual recap</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- HOME -->
+    <section class="page" id="home" aria-labelledby="home-title">
+      <p class="eyebrow">A GUIDE FOR NEW CS110 STUDENTS</p>
+      <h1 id="home-title" tabindex="-1">
+        Small steps.<br>
+        <span>Real understanding.</span>
+      </h1>
+
+      <p class="intro">
+        Explore what we learned, try an interaction, and see how ideas
+        become websites.
+      </p>
+
+      <div class="two-columns">
+        <article class="card">
+          <h2>Who is this for?</h2>
+          <p>
+            This guide is for a new CS110 student or teammate who wants
+            a clear introduction to the first four weeks.
+          </p>
+          <p>
+            Its purpose is to explain the ideas through short lessons,
+            visual diagrams, and small experiments.
+          </p>
+          <a class="button" href="#week1">Start with Week 1 →</a>
+        </article>
+
+        <article class="card dark">
+          <p class="eyebrow">OUR CREATIVE DIRECTION</p>
+          <h2>Technology field guide</h2>
+          <p>
+            The genre is an interactive tutorial: clear labels,
+            readable explanations, and useful feedback.
+          </p>
+          <div class="diagram">
+            <span>Explore an idea</span>
+            <span>Try an action</span>
+            <span>See a result</span>
+          </div>
+        </article>
+      </div>
+
+      <h2>Your weekly route</h2>
+
+      <div class="week-list">
+        <a href="#week1">
+          <strong>01 · Mindset and support</strong>
+          Questions, creativity, ownership, and collaboration.
+        </a>
+        <a href="#week2">
+          <strong>02 · Web development</strong>
+          Building with HTML, CSS, JavaScript, and AI assistance.
+        </a>
+        <a href="#week3">
+          <strong>03 · Storytelling</strong>
+          Story outlines, AAA, genre, and design perspectives.
+        </a>
+        <a href="#week4">
+          <strong>04 · Storytelling and 3D</strong>
+          PEEK, reusable code, and the Week 4 starter.
+        </a>
+        <a href="#week5">
+          <strong>05 · Plan, build, and share</strong>
+          The current project and your 5A checklist.
+        </a>
+      </div>
+
+      <a class="button" href="#recap">Read the four-stop recap →</a>
+    </section>
+
+    <!-- WEEK 1 -->
+    <section class="page" id="week1" aria-labelledby="week1-title">
+      <p class="eyebrow">WEEK 01 / MINDSET AND SUPPORT</p>
+      <h1 id="week1-title" tabindex="-1">Start with curiosity.</h1>
+
+      <p class="intro">
+        Make decisions, ask questions, and learn from what happens.
+      </p>
+
+      <article class="card">
+        <h2>Take ownership of your work</h2>
+        <p>
+          Our notes emphasize creativity, collaboration, and being
+          invested in what we make. Instead of waiting for every design
+          decision, identify the goal and try a reasonable first step.
+        </p>
+        <p>
+          Asking for support is part of that process. Explain what you
+          tried, what you expected, and what happened.
+        </p>
+
+        <div class="diagram">
+          <span>Ask a question</span>
+          <span>Try one change</span>
+          <span>Observe</span>
+          <span>Revise</span>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Our first web analogy</h2>
+        <div class="diagram">
+          <span>HTML<br><strong>Skeleton</strong></span>
+          <span>CSS<br><strong>Style</strong></span>
+          <span>JavaScript<br><strong>Behavior</strong></span>
+        </div>
+        <p>
+          HTML organizes content. CSS controls appearance and layout.
+          JavaScript responds to input and changes the page.
+        </p>
+        <p>
+          JavaScript can create animations, but it does more than that.
+          CSS can also create animations and layouts that fit different screens.
+        </p>
+      </article>
+
+      <article class="card experiment">
+        <h2>Try a problem-solving decision</h2>
+        <p>Your button is visible, but clicking it does nothing.</p>
+
+        <button
+          type="button"
+          data-feedback="Good experiment: check that the JavaScript file is linked and that the button selector matches the HTML."
+        >
+          Check the connection
+        </button>
+
+        <button
+          type="button"
+          data-feedback="Ask a focused question. Show a classmate what you tried, what you expected, and what actually happened."
+        >
+          Ask for support
+        </button>
+
+        <p class="feedback" role="status">Choose a next step.</p>
+      </article>
+
+      <article class="card">
+        <h2>My learning reflection</h2>
+        <!-- Replace this prompt with your own true experience. -->
+        <p>
+          Add your own example here:
+          “At first I ____. Then I tried ____. I learned ____.”
+        </p>
+      </article>
+
+      <a class="next" href="#week2">Continue to Week 2 →</a>
+    </section>
+
+    <!-- WEEK 2 -->
+    <section class="page" id="week2" aria-labelledby="week2-title">
+      <p class="eyebrow">WEEK 02 / WEB DEVELOPMENT</p>
+      <h1 id="week2-title" tabindex="-1">Make the page respond.</h1>
+
+      <p class="intro">
+        Put the web basics into practice through building and collaboration.
+      </p>
+
+      <article class="card">
+        <h2>From an idea to a website</h2>
+        <p>
+          Our recap describes AI-assisted websites and collaborative
+          development. Give the tool a clear goal, inspect its output,
+          and test the result with your team.
+        </p>
+        <p>
+          You still choose the audience, content, and behavior. You also
+          need to understand what the code does.
+        </p>
+
+        <div class="diagram">
+          <span>Describe the need</span>
+          <span>Sketch the page</span>
+          <span>Build</span>
+          <span>Test and revise</span>
+        </div>
+      </article>
+
+      <div class="two-columns">
+        <article class="card">
+          <h2>Three jobs working together</h2>
+          <ul>
+            <li><strong>HTML:</strong> creates the button and message.</li>
+            <li><strong>CSS:</strong> styles their appearance.</li>
+            <li><strong>JavaScript:</strong> changes the message after a click.</li>
+          </ul>
+          <p>
+            VS Code is the editor where you change these files.
+            Git records versions, and GitHub stores a remote copy
+            for sharing and collaboration.
+          </p>
+        </article>
+
+        <article class="card experiment">
+          <p class="eyebrow">TRY IT</p>
+          <h2>Your first visible result</h2>
+          <p>Click the button and watch the message change.</p>
+
+          <button type="button" id="hello-button">Say hello</button>
+          <button type="button" class="secondary" id="reset-button">
+            Reset
+          </button>
+
+          <p id="hello-result" class="feedback" role="status">
+            Ready for your first click.
+          </p>
+        </article>
+      </div>
+
+      <article class="card">
+        <h2>Planning before building</h2>
+        <p>
+          Our earlier group sketch proposed a main page, a 3D object,
+          and menu sections. A sketch helps the group agree on the
+          visitor’s experience before writing every detail.
+        </p>
+      </article>
+
+      <a class="next" href="#week3">Continue to Week 3 →</a>
+    </section>
+
+    <!-- WEEK 3 -->
+    <section class="page" id="week3" aria-labelledby="week3-title">
+      <p class="eyebrow">WEEK 03 / STORYTELLING</p>
+      <h1 id="week3-title" tabindex="-1">Give the experience a purpose.</h1>
+
+      <p class="intro">
+        A story helps people understand where they are and what to do next.
+      </p>
+
+      <article class="card">
+        <h2>Story outlines and AAA</h2>
+        <p>
+          Our recap describes SEEK as a way to prepare a story outline.
+          Its full definition still needs checking against the class materials.
+        </p>
+
+        <div class="diagram">
+          <span>Introduce relevance</span>
+          <span>Take an action</span>
+          <span>Build on the result</span>
+        </div>
+
+        <p>
+          The typed recap uses <strong>Attention, Action, Amplification</strong>.
+          Earlier whiteboards use
+          <strong>Application, Action, Amplification</strong>.
+          Confirm which version your instructor expects.
+        </p>
+      </article>
+
+      <article class="card">
+        <h2>Audience, need, and genre</h2>
+        <p>
+          The audience is who the experience serves. The need is what
+          they want to understand or accomplish. The genre is the type
+          of experience, such as a tutorial, mystery, or game.
+        </p>
+        <p>
+          Our earlier group story board used a horror setting and
+          different character roles. This guide uses an instructional
+          genre to help a newcomer learn.
+        </p>
+      </article>
+
+      <article class="card experiment">
+        <h2>Try the three design hats</h2>
+        <p>Inspect the same website from three perspectives.</p>
+
+        <button
+          type="button"
+          data-feedback="Visual hat: Are the labels readable? Does the layout help the visitor find the next action?"
+        >
+          Visual
+        </button>
+
+        <button
+          type="button"
+          data-feedback="Logical hat: What happens when the visitor clicks? Which rules decide the result?"
+        >
+          Logical
+        </button>
+
+        <button
+          type="button"
+          data-feedback="Data hat: What information does the app use? What changes, such as a click count or selected answer?"
+        >
+          Data
+        </button>
+
+        <p class="feedback" role="status">Choose a hat.</p>
+      </article>
+
+      <a class="next" href="#week4">Continue to Week 4 →</a>
+    </section>
+
+    <!-- WEEK 4 -->
+    <section class="page" id="week4" aria-labelledby="week4-title">
+      <p class="eyebrow">WEEK 04 / STORYTELLING AND 3D</p>
+      <h1 id="week4-title" tabindex="-1">Bring the idea into a scene.</h1>
+
+      <p class="intro">
+        Connect a story outline to interface choices and a 3D experience.
+      </p>
+
+      <article class="card">
+        <h2>Building on storytelling</h2>
+        <p>
+          Our recap names PEEK as a framework introduced in Week 4.
+          The full meaning of its letters still needs the original
+          class materials.
+        </p>
+        <p>
+          The practical goal was to apply storytelling to web
+          development and incorporate 3D elements. The class guide
+          identifies Babylon.js as the library that helped power the scene.
+        </p>
+
+        <div class="diagram">
+          <span>Story outline</span>
+          <span>Interface choices</span>
+          <span>Adapted 3D scene</span>
+          <span>Visitor explores</span>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Template, library, and package</h2>
+        <ul>
+          <li>
+            <strong>Template:</strong> starting files you adapt.
+          </li>
+          <li>
+            <strong>Library:</strong> reusable code that solves a problem.
+          </li>
+          <li>
+            <strong>Package:</strong> a distributable unit of code
+            with a description.
+          </li>
+        </ul>
+        <p>
+          A 3D template can already connect a scene to a library.
+          You change the scene without writing an entire 3D engine.
+        </p>
+      </article>
+
+      <article class="card dark">
+        <h2>The original Week 4 project</h2>
+        <p id="three-status">
+          The original 3D page still needs to be connected.
+        </p>
+
+        <a id="three-link" class="button" hidden>
+          Open the Week 4 3D view →
+        </a>
+
+        <p>
+          Add its real URL or relative file path in
+          <code>config.js</code>.
+        </p>
+      </article>
+
+      <article class="card">
+        <h2>Adapt it to this theme</h2>
+        <p>
+          One possible change is to label an existing scene object
+          “Reusable code” and explain what it represents in the field
+          guide. This is a proposed adaptation, not a completed change.
+        </p>
+      </article>
+      <article class="card">
+  <h2>Explore a 3D crystal</h2>
+
+  <p>
+    Drag to look around the crystal. Scroll or pinch to zoom.
+    Try the buttons to change its appearance.
+  </p>
+
+  <canvas
+    id="crystal-canvas"
+    tabindex="0"
+    aria-label="Interactive 3D crystal. Use arrow keys to rotate the camera."
+    style="
+      display: block;
+      width: 100%;
+      height: 400px;
+      max-height: 65vh;
+      touch-action: none;
+      border-radius: 12px;
+      background: #0a1a24;
+    "
+  ></canvas>
+
+  <div>
+    <button type="button" id="crystal-color">
+      Change color
+    </button>
+
+    <button type="button" id="crystal-spin">
+      Pause rotation
+    </button>
+
+    <button type="button" id="crystal-reset">
+      Reset view
+    </button>
+  </div>
+
+  <p id="crystal-status" class="feedback" role="status">
+    Loading the 3D scene…
+  </p>
+
+  <p>
+    Babylon.js supplies the 3D tools. JavaScript changes the crystal’s
+    material and rotation when you interact with the controls.
+  </p>
+</article>
+
+      <a class="next" href="#recap">Continue to the visual recap→</a>
+    </section>
+
+    <!-- FOUR-STOP VISUAL RECAP -->
+    <section class="page" id="recap" aria-labelledby="recap-title">
+      <p class="eyebrow">THE FOUR-STOP NEWCOMER RECAP</p>
+      <h1 id="recap-title" tabindex="-1">See the whole picture.</h1>
+
+      <p class="intro">
+        These four stops connect ideas across the weeks.
+      </p>
+
+      <article class="card">
+        <p class="eyebrow">01 / MINDSET</p>
+        <h2>How we learn</h2>
+        <p>
+          Ask questions, make creative choices, and use support.
+          Try a small change and learn from its result.
+        </p>
+        <div class="diagram">
+          <span>Question</span>
+          <span>Experiment</span>
+          <span>Observe</span>
+          <span>Revise</span>
+        </div>
+        <p>
+          Include your real example of a changed approach in the Week 1 section.
+        </p>
+      </article>
+
+      <article class="card">
+        <p class="eyebrow">02 / STORY TO SCREEN</p>
+        <h2>How an idea becomes a UI</h2>
+        <p>
+          Start with an audience, need, and genre. Then inspect the
+          design through three different hats.
+        </p>
+        <div class="diagram">
+          <span>Visual<br>What people see</span>
+          <span>Logical<br>What happens next</span>
+          <span>Data<br>Information the app uses</span>
+        </div>
+      </article>
+
+      <article class="card">
+        <p class="eyebrow">03 / TOOLS AND CODE</p>
+        <h2>How the app works</h2>
+        <div class="diagram">
+          <span>HTML<br>Structure</span>
+          <span>CSS<br>Appearance</span>
+          <span>JavaScript<br>Behavior</span>
+        </div>
+        <p>
+          Edit in VS Code, record versions with Git, and adapt starter
+          files when a template gives you a useful beginning.
+        </p>
+
+        <h3>The package shelf: a workshop analogy</h3>
+        <div class="diagram">
+          <span>Your app<br>The workshop</span>
+          <span>package.json<br>The parts list</span>
+          <span>npm registry<br>The catalog</span>
+          <span>npm tool<br>The delivery</span>
+          <span>Lockfile<br>The exact receipt</span>
+        </div>
+        <p>
+          A package supplies reusable code, such as a date formatter
+          or 3D library. You still design the audience’s experience.
+          The parts list identifies dependencies, and the lockfile
+          records exact versions.
+        </p>
+        <p>
+          Installed copies commonly live in <code>node_modules</code>,
+          which usually stays out of GitHub. This small website uses
+          plain JavaScript and does not need npm.
+        </p>
+      </article>
+
+      <article class="card">
+        <p class="eyebrow">04 / NETWORK AND PEOPLE</p>
+        <h2>How it reaches others</h2>
+        <div class="diagram">
+          <span>Browser<br>Needs a page</span>
+          <span>DNS / name server<br>Finds its address</span>
+          <span>Site server<br>Sends resources</span>
+          <span>Browser<br>Displays the page</span>
+        </div>
+        <p>
+          DNS helps resolve a domain to an address. The browser requests
+          resources from the site server and uses them to display the page.
+          Cached information can let it skip some requests.
+        </p>
+        <p>
+          GitHub helps people share and review code. Discord helps
+          classmates explain choices, ask questions, and give feedback.
+        </p>
+        <p>
+          A configured GitHub Actions workflow can run checks after
+          a push. A maintainer may use a release workflow to publish a
+          package version; a push alone does not update everyone’s copy.
+        </p>
+      </article>
+
+      <a class="next" href="#home">Back to Home →</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>CS110 · Technology Field Guide</p>
+    <p>Learn it. Try it. Explain it.</p>
+  </footer>
+</body>
+</html>
